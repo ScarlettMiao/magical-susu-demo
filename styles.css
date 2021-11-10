@@ -1,0 +1,496 @@
+body {
+  background-color: #FFE699;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#box {
+  background-color: #FFF9B6;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  height: 900px;
+  width: 600px;
+}
+#linksBox {
+  text-align: center;
+  margin: auto;
+  opacity: 65%;
+  border-radius: 30px;
+}
+
+#linksBox a {
+  padding: 0px 5px;
+}
+#linksBox a img {
+  border-radius: 7px;
+  box-shadow: 0px 0px 2px 1px blue;
+}
+#linksBox:hover {
+  opacity: 100%;
+}
+#heading {
+  font-size: 30px;
+  text-align: center;
+  color: snow;
+  text-shadow: 0px 4px 5px rgb(24, 25, 88);
+  font-family: "j'aime le poisson !", "Trebuchet ms";
+}
+#backdrop {
+  top: 2em;
+  margin: auto;
+  position: relative;
+  background-color: #FBFBFB;
+  border-radius: 20px;
+  height: 750px;
+  width: 400px;
+}
+.buttonBox {
+  position: relative;
+  margin: 1rem;
+}
+button {
+  margin-top: 2em;
+  margin-right: 0.4em;
+  color: black;
+  background-color: rgb(243, 240, 255);
+  box-shadow: 0px 1px 2px 1px rgb(73, 75, 184);
+  border-radius: 10px;
+  padding: 5px 12px;
+  font-size: larger;
+  transition: 0.1s linear;
+}
+button:hover {
+  background-color: rgb(248, 252, 255);
+  box-shadow: 0px 2px 4px 1px rgb(73, 75, 184);
+}
+
+#hairback {
+  position: absolute;
+  height: 750px;
+  width: 400px;
+}
+
+#body {
+  background-image: url("./image/body.PNG");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 1;
+}
+#top {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 3;
+}
+#bottom {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 3;
+}
+#shoes {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 2;
+}
+#hair {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 3;
+}
+#face {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 2;
+}
+#hat {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 4;
+}
+#other {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 0;
+}
+
+
+/*.top1 {
+  background-image: url("./image/top1.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 4;
+}*/
+.top2 {
+  background-image: url("./image/top02.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top3 {
+  background-image: url("./image/top03.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top4 {
+  background-image: url("./image/top04.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top5 {
+  background-image: url("./image/top05.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top6 {
+  background-image: url("./image/top06.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top7 {
+  background-image: url("./image/top07.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top8 {
+  background-image: url("./image/top08.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top9 {
+  background-image: url("./image/top09.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top10 {
+  background-image: url("./image/top12.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top11 {
+  background-image: url("./image/top12.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top12 {
+  background-image: url("./image/top13.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top13 {
+  background-image: url("./image/top15.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top14 {
+  background-image: url("./image/top16.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top15 {
+  background-image: url("./image/top17.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top16 {
+  background-image: url("./image/top18.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+
+
+
+.bottom1 {
+  background-image: url("./image/bottom02.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 2;
+}
+.bottom2 {
+  background-image: url("./image/bottom03.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 6;
+}
+.bottom3 {
+  background-image: url("./image/bottom04.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.bottom4 {
+  background-image: url("./image/bottom05.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.bottom5 {
+  background-image: url("./image/bottom06.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 5;
+}
+.bottom6 {
+  background-image: url("./image/bottom07.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 5;
+}
+.bottom7 {
+  background-image: url("./image/bottom08.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.bottom8 {
+  background-image: url("./image/bottom10.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.bottom9 {
+  background-image: url("./image/bottom11.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.bottom10 {
+  background-image: url("./image/bottom12.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.bottom11 {
+  background-image: url("./image/bottom13.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.bottom12 {
+  background-image: url("./image/bottom14.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.bottom13 {
+  background-image: url("./image/bottom15.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.bottom14 {
+  background-image: url("./image/bottom16.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+
+
+.shoes1 {
+  background-image: url("./image/shoes02.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.shoes2 {
+  background-image: url("./image/shoes03.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.shoes3 {
+  background-image: url("./image/shoes04.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
+
+/*.hat1 {
+  background-image: url("./image/head01.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}*/
+.hat1 {
+  background-image: url("./image/head02.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat2 {
+  background-image: url("./image/head03.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat3 {
+  background-image: url("./image/head04.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
+
+.hair1 {
+  background-image: url("./image/hair02.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hair2 {
+  background-image: url("./image/hair03.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hair3 {
+  background-image: url("./image/hair04.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hair4 {
+  background-image: url("./image/hair05.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hair5 {
+  background-image: url("./image/hair06.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hair6 {
+  background-image: url("./image/hair07.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hair7 {
+  background-image: url("./image/hair08.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
+
+/*.face1 {
+  background-image: url("./images4/face1.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.face2 {
+  background-image: url("./images4/face2.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}*/
