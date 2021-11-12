@@ -106,6 +106,17 @@ button:not([disabled]):hover {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
 }
 
+footer {
+  margin-top: 10px;
+  background-color: #EAA568;
+  text-align: center;
+  /*font-family: 'Indie Flower', cursive;*/
+  font-weight: 300;
+  color: #FFF9B6;
+  text-decoration: none;
+  font-size: 12pt;
+}
+
 #hairback {
   position: absolute;
   height: 750px;
