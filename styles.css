@@ -87,19 +87,36 @@ button:hover {
   width: 400px;
   z-index: 3;
 }
+#bottom-out {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 5;
+}
+
 #bottom {
   background-repeat: no-repeat;
   position: absolute;
   height: 750px;
   width: 400px;
-  z-index: 3;
+  z-index: 2;
 }
+
+#coat{
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 6;
+}
+
 #shoes {
   background-repeat: no-repeat;
   position: absolute;
   height: 750px;
   width: 400px;
-  z-index: 2;
+  z-index: 4;
 }
 #hair {
   background-repeat: no-repeat;
@@ -120,7 +137,7 @@ button:hover {
   position: absolute;
   height: 750px;
   width: 400px;
-  z-index: 4;
+  z-index: 3;
 }
 #other {
   background-repeat: no-repeat;
@@ -259,6 +276,23 @@ button:hover {
   width: 400px;
   z-index: 4;
 }
+.top17 {
+  background-image: url("./image/top19.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+.top18 {
+  background-image: url("./image/top20.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+  z-index: 4;
+}
+
 
 
 
@@ -270,7 +304,7 @@ button:hover {
   width: 400px;
   z-index: 2;
 }
-.bottom2 {
+.bottom-out2 {
   background-image: url("./image/bottom03.PNG");
   background-repeat: no-repeat;
   position: absolute;
@@ -294,7 +328,7 @@ button:hover {
   width: 400px;
   z-index: 4;
 }
-.bottom5 {
+.bottom-out5 {
   background-image: url("./image/bottom06.PNG");
   background-repeat: no-repeat;
   position: absolute;
@@ -302,7 +336,7 @@ button:hover {
   width: 400px;
   z-index: 5;
 }
-.bottom6 {
+.bottom-out6 {
   background-image: url("./image/bottom07.PNG");
   background-repeat: no-repeat;
   position: absolute;
@@ -376,6 +410,63 @@ button:hover {
 }
 
 
+.coat1 {
+  background-image: url("./image/coat01.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.coat2 {
+  background-image: url("./image/coat02.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.coat3 {
+  background-image: url("./image/coat03.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.coat4 {
+  background-image: url("./image/coat04.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.coat5 {
+  background-image: url("./image/coat05.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.coat6 {
+  background-image: url("./image/coat06.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.coat7 {
+  background-image: url("./image/coat07.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.coat8 {
+  background-image: url("./image/coat08.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
 .shoes1 {
   background-image: url("./image/shoes02.PNG");
   background-repeat: no-repeat;
@@ -397,6 +488,41 @@ button:hover {
   height: 700px;
   width: 400px;
 }
+.shoes4 {
+  background-image: url("./image/shoes05.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.shoes5 {
+  background-image: url("./image/shoes06.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.shoes6 {
+  background-image: url("./image/shoes07.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.shoes7 {
+  background-image: url("./image/shoes08.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.shoes8 {
+  background-image: url("./image/shoes09.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
 
 
 /*.hat1 {
@@ -407,21 +533,119 @@ button:hover {
   width: 400px;
 }*/
 .hat1 {
-  background-image: url("./image/head02.PNG");
+  background-image: url("./image/a-head01.PNG");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .hat2 {
-  background-image: url("./image/head03.PNG");
+  background-image: url("./image/a-head02.PNG");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .hat3 {
-  background-image: url("./image/head04.PNG");
+  background-image: url("./image/a-head03.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat4 {
+  background-image: url("./image/a-head04.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat5 {
+  background-image: url("./image/a-head05.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat6 {
+  background-image: url("./image/a-head06.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat7 {
+  background-image: url("./image/a-face01.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat8 {
+  background-image: url("./image/a-face02.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat9 {
+  background-image: url("./image/a-face03.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat10 {
+  background-image: url("./image/a-hand01.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat11 {
+  background-image: url("./image/a-hand02.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat12 {
+  background-image: url("./image/a-hand03.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat13 {
+  background-image: url("./image/a-hand04.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat14 {
+  background-image: url("./image/a-hand05.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat15 {
+  background-image: url("./image/a-dress.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat16 {
+  background-image: url("./image/a-foot01.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat17 {
+  background-image: url("./image/a-foot02.PNG");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
@@ -480,17 +704,39 @@ button:hover {
 }
 
 
-/*.face1 {
-  background-image: url("./images4/face1.png");
+.face1 {
+  background-image: url("./image/face1.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
 .face2 {
-  background-image: url("./images4/face2.png");
+  background-image: url("./image/face2.png");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
-}*/
+}
+.face3 {
+  background-image: url("./image/face3.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.face4 {
+  background-image: url("./image/face4.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.face5 {
+  background-image: url("./image/face5.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
