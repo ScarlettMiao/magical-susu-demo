@@ -81,10 +81,18 @@ function nexthair() {
 
 function nexthat() {
   let hat = document.querySelector("#hat");
-  if (state.hat < 17) {
+  let hatin = document.querySelector("#hat-in");
+  if (state.hat < 22) {
     state.hat++;
-    hat.setAttribute("class", `hat${state.hat}`);
-  } else if (state.hat === 17) {
+    if(state.hat === 16 || state.hat === 17){
+      hatin.setAttribute("class", `hat-in${state.hat}`)
+      hat.setAttribute("class", `hat0`);
+    }else{
+      hatin.setAttribute("class", `hat0`)
+      hat.setAttribute("class", `hat${state.hat}`);
+    }
+
+  } else if (state.hat === 22) {
     state.hat = 0;
     hat.setAttribute("class", `hat${state.hat}`);
   }

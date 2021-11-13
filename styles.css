@@ -189,7 +189,14 @@ footer {
   position: absolute;
   height: 750px;
   width: 400px;
-  z-index: 3;
+  z-index: 4;
+}
+#hat-in {
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 750px;
+  width: 400px;
+  z-index: 2;
 }
 #other {
   background-repeat: no-repeat;
@@ -689,20 +696,56 @@ footer {
   height: 700px;
   width: 400px;
 }
-.hat16 {
+.hat-in16 {
   background-image: url("./image/a-foot01.PNG");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
-.hat17 {
+.hat-in17 {
   background-image: url("./image/a-foot02.PNG");
   background-repeat: no-repeat;
   position: absolute;
   height: 700px;
   width: 400px;
 }
+.hat18 {
+  background-image: url("./image/a-neck01.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat19 {
+  background-image: url("./image/a-neck02.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat20 {
+  background-image: url("./image/a-neck03.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat21 {
+  background-image: url("./image/a-neck04.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+.hat22 {
+  background-image: url("./image/a-head07.PNG");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
 
 
 .hair1 {
